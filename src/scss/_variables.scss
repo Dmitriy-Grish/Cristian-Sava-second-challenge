@@ -1,0 +1,13 @@
+$primaryColor: rgb(50, 61, 165);
+$secondaryColor: rgba(62, 62, 62, 1);
+
+@mixin DisplayFlexAllCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin DisplayFlexA {
+  display: flex;
+  align-items: center;
+}
